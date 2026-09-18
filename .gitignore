@@ -1,13 +1,10 @@
-venv/
 gpu-venv/
 __pycache__/
 *.pyc
 .env
 *.keras
-*.pt
 *.h5
 saved_models/
 PAPILA/
 dataset_splits/
 eye_disease/
-papila_evaluation/
