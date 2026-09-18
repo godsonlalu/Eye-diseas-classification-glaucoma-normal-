@@ -4,8 +4,6 @@ __pycache__/
 *.pyc
 .env
 *.keras
-*.pt
-*.h5
 saved_models/
 PAPILA/
 dataset_splits/
