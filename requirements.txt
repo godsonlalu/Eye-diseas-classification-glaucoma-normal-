@@ -1,9 +1,18 @@
 streamlit>=1.38
-tensorflow>=2.15
 numpy>=1.26
 pillow>=10.0
 requests>=2.31
-huggingface-hub>=0.27
-tf_keras>=2.15
 python-dotenv>=1.0
 pandas>=2.0
+
+# Deep learning — classification model (Xception via timm)
+torch>=2.1
+torchvision>=0.16
+timm>=1.0
+
+# Keras 2 compatibility shim — required to load .h5 models saved with TF2/Keras 2.x
+tensorflow>=2.15
+tf_keras>=2.15
+
+# Hugging Face (used for HF token inference if credits are available)
+huggingface-hub>=0.27
